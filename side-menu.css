@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/* Side Menu */
+
+#slideout_links {
+			position: fixed;
+			top: 250px;
+			right: 0;
+			width: 35px;
+			padding: 12px 0;
+			text-align: center;
+			background: #008C00;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-border-radius: 5px 0 0 5px;
+			-moz-border-radius: 5px 0 0 5px;
+			border-radius: 5px 0 0 5px;
+			z-index:100;
+		}
+		#slideout_inner_links {
+			position: fixed;
+			top: 250px;
+			right: -250px;
+			background: #008C00;
+			width: 200px;
+			padding: 25px;
+			height: 250px;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			text-align: left;
+			-webkit-border-radius:  0 0 0 5px ;
+			-moz-border-radius:  0 0 0 5px ;
+			border-radius: 0 0 0 5px ;
+			z-index:100;
+		}
+		#slideout_inner_links textarea {
+			width: 190px;
+			height: 200px;
+			margin-bottom: 6px;
+		}
+		#slideout_links:hover {
+			right: 250px;
+		}
+		#slideout_links:hover 
+		#slideout_inner_links {
+			right: 0;
+		}
+		
+		
+		#slideout_help {
+			position: fixed;
+			top: 400px;
+			right: 0;
+			width: 35px;
+			padding: 12px 0;
+			text-align: center;
+			background: #FF8000;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-border-radius: 5px 0 0 5px;
+			-moz-border-radius: 5px 0 0 5px;
+			border-radius: 5px 0 0 5px;
+			z-index:100;
+		}
+		#slideout_inner_help {
+			position: fixed;
+			top: 400px;
+			right: -250px;
+			background: #FF8000;
+			width: 200px;
+			padding: 25px;
+			height: 250px;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			text-align: left;
+			-webkit-border-radius: 0 0 0 5px ;
+			-moz-border-radius: 0 0 0 5px ;
+			border-radius: 0 0 0 5px ;
+			z-index:100;
+		}
+		#slideout_inner_help textarea {
+			width: 190px;
+			height: 200px;
+			margin-bottom: 6px;
+		}
+		#slideout_help:hover {
+			right: 250px;
+		}
+		#slideout_help:hover 
+		#slideout_inner_help {
+			right: 0;
+		}
+		
+#slideout_suggestion {
+			position: fixed;
+			top: 250px;
+			left: 0;
+			width: 35px;
+			padding: 12px 0;
+			text-align: center;
+			background: #D9D900;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-border-radius: 0 5px 5px 0;
+			-moz-border-radius: 0 5px 5px 0;
+			border-radius: 0 5px 5px 0;
+			z-index:100;
+		}
+		#slideout_inner_suggestion {
+			position: fixed;
+			top: 250px;
+			left: -250px;
+			background: #D9D900;
+			width: 200px;
+			padding: 25px;
+			height: 250px;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			text-align: left;
+			-webkit-border-radius: 0 0 5px 0;
+			-moz-border-radius: 0 0 5px 0;
+			border-radius: 0 0 5px 0;
+			z-index:100;
+		}
+		#slideout_inner_suggestion textarea {
+			width: 150px;
+			height: 60px;
+			margin-bottom: 6px;
+		}
+		#slideout_suggestion:hover {
+			left: 250px;
+		}
+		#slideout_suggestion:hover 
+		#slideout_inner_suggestion {
+			left: 0;
+		}
+		
+		
+#slideout_admin {
+				position: fixed;
+			top: 400px;
+			left: 0;
+			width: 35px;
+			padding: 12px 0;
+			text-align: center;
+			background: #7F00FF ;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			-webkit-border-radius: 0 5px 5px 0;
+			-moz-border-radius: 0 5px 5px 0;
+			border-radius: 0 5px 5px 0;
+			z-index:100;
+		}
+		#slideout_inner_admin {
+			position: fixed;
+			top: 400px;
+			left: -250px;
+			background: #7F00FF ;
+			width: 200px;
+			padding: 25px;
+			height: 250px;
+			-webkit-transition-duration: 0.3s;
+			-moz-transition-duration: 0.3s;
+			-o-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+			text-align: left;
+			-webkit-border-radius: 0 0 5px 0;
+			-moz-border-radius: 0 0 5px 0;
+			border-radius: 0 0 5px 0;
+			z-index:100;
+		}
+		#slideout_inner_admin textarea {
+			width: 150px;
+			height: 60px;
+			margin-bottom: 6px;
+		}
+		#slideout_admin:hover {
+			left: 250px;
+		}
+		#slideout_admin:hover 
+		#slideout_inner_admin {
+			left: 0;
+		}
+

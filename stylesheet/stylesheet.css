@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{ /*Styling properties for the body div*/
+	margin:0px; /*Positioning for the body*/
+	padding:0px; /*Adds padding to the body*/
+	background:#E7ECF5; /*The colour of the body*/
+}
+
+#wrapper
+{
+	margin:0 auto; 
+	width:90%;
+}
+
+header
+{ /*Styling properties for the header div*/
+	position:fixed; /*Fixes the header to the top of the page even when scrolling*/
+	top:0; /*Positions the header 0 from the top of the page*/
+	z-index:100000; /*The header will appear infront of the other elements on the page*/
+	width:100%; /*The width of the header*/
+	min-height:120px; /*The height of the header*/
+	background:#2D4471; /*The colour of the header*/
+	box-shadow:4px 4px 4px grey; /*Adds drop shadow to the header*/
+}
+
+.company_logo
+{ /*Styling properties for the company_logo class*/
+	float:left; /*Positions the class to the left inside the company_logo div*/
+	height:99%; /*The height of the class*/
+	clear:both; /*Clears the float positioning property*/
+}
+
+nav
+{ /*Styling properties for the nav div*/
+	float:left; /*Positions the class to the left*/
+	width:40%; /*The width of the nav div*/
+	height:99%; /*The height of the nav div*/
+}
+
+nav ul 
+{ /*Styling properties for ul divs*/
+  text-align:left; /*Positions the text so the it alligns from the left*/
+  display:inline; /*Positions the nav bar to display inline next to another*/
+  margin:0; /*Positioning for the nav bar*/
+  padding:15px 4px 17px 0; /*This adds padding to the nav bar*/
+  list-style:none; /*Adds no list style to the nav bar*/
+}
+
+nav ul li 
+{ /*Styling properties for ul li divs*/
+  font:16px Arial;/*This is the style, size and family of the text*/
+  color:white; /*This is the colour of the text*/
+  text-shadow:2px 2px black; /*This adds a drop shadow to the text*/
+  display:inline-block; /*This positions the nav bar in-block*/
+  margin-right:-4px; /*Positions the nav -4px from the right*/
+  position:relative; /*Positions the nav bar relative*/
+  padding:15px 20px; /*Adds 15px 20px padding to the nav*/
+  background:#2D4471; /*This is the colour of the nav bar boxes when the page loads up*/
+  cursor:pointer; /*Makes the nav bar interactive to the mouse pointer*/
+  transition:all 0.2s; /*This adds a transition effect to the nav bar*/
+  top:48px; /*Positions th nac bar 40px from the top*/
+  left:50px; /*Positions the nav bar 50px from the left*/
+}
+
+nav ul li:hover
+{ /*Styling properties for ul li divs when hovering over*/
+  background:#0F1D38; /*This is the colour of the nav bar boxes when hovering over*/
+  color:white; /*This is the colour of the text in the nav bar when hovering over*/
+}
+
+nav ul li a
+{ /*Styling properties for the link text in the page_links class*/
+	font:16px Arial; /*Makes the text within the page_links class font family Arial 16px*/
+	color:white; /*The colour of the text*/
+	text-decoration:none; /*This removes the underline of the text*/
+}
+
+
+.social_fix{
+	margin-right:30px; /*Positions the div 30px from the right*/
+	margin-top:30px; /*Positions the div 30px from the top*/
+}
+.social_media
+{ /*Styling properties for the social_media class*/
+	float:right; /*Positions the class to the left*/
+	height:99%; /*The width of the social_media class*/
+	transition: all 0.2s ease; /*Adds transition effect*/
+}
+
+.social_button 
+{ /*Styling properties for the social_button class*/
+ 	width:48px; /*The size of the social media icons when static*/
+}
+
+.social_button:hover
+{ /*Styling properties for the social_button class when hovering over*/
+	transition: all 0.2s ease; /*Adds transition effect*/
+	width:52px; /*Enlarges icons to 52px when hovering*/
+}
+
+#top_bar
+{ /*Styling properties for the top_bar div*/
+	position:relative; /*Positions the top_bar class relative on the page*/
+	width:100%; /*The width of the top_bar class*/
+	height:30px; /*The height of the top_bar class*/
+	background:#DDDDDD; /*The colour of the top_bar class*/
+	box-shadow:4px 4px 4px grey; /*Adds a grey drop shadow to the top_bar class*/
+	font:16px Arial; /*This makes the text within the top bar the font family Arial and 16px*/
+	font-weight:bold; /*This makes the text within the top_bar bold*/
+	color:black; /*This makes the color of the text within the top_bar black*/
+	text-indent:40px; /*This adds a 40px space indent to the text from the left*/
+	letter-spacing: 1px; /*This adds 1px letter spacing to the text*/
+	word-spacing:10px; /*This adds 10px word spacing to the text*/
+	padding-top: 10px; /*Positions the text within the top_bar 10px from the top*/
+}
+
+.contact_details, .contact_details_fix
+{ /*Styling properties for the contact_details class*/
+	float:right; /*Poisitions the contact_details class to the right*/
+	height:100%; /*The height of the contact_details class*/
+	margin:-7px; /*Positions the contact icons in the center of the top_bar*/
+	margin-right:67px; /*Positions the contact icons 67px from the right*/
+}
+
+.contact_details_fix
+{ /*Styling properties for the contact_detials_fix*/
+	margin-top:-26px; /*Positions the contact details -26px top*/
+}
+
+.contact_details_contact_page
+{ /*Styling properties for the contact_details class*/
+	float:right; /*Poisitions the contact_details class to the right*/
+	height:100%; /*The height of the contact_details class*/
+	margin:-7px; /*Positions the contact icons in the center of the top_bar*/
+	margin-right:67px; /*Positions the contact icons 67px from the right*/
+}
+
+.contact_button
+{ /*Styling properties for the social_button class*/
+	width:34px; /*The size of the contact icons when static*/
+ 	transition: all 0.2s ease; /*Adds transition effect*/
+}
+
+.contact_button:hover
+{ /*Styling properties for the contact_button class when hovering over*/
+	transition: all 0.2s ease; /*Adds transition effect*/
+	width:36px; /*Enlarges icons to 36px when hovering*/
+}
+
+article
+{ /*Styling properties for the article div*/
+	position:relative;/*Sets the positioning for the article to relative*/
+	margin:0 auto;
+	margin-top:200px; /*Positions the article 200px from the top of the page*/
+	min-height:490px; /*Makes the minimum height of the div 490px*/
+	width:90%; /*The width of the article div*/
+}
+
+h1
+{ /*Styling properties for the header*/
+	position:relative; /*Sets the positioning for the header to relative*/
+	margin-left: 10px; /*positions the header 10px from the left*/
+	font:24px Arial; /*Font properties for the header*/
+	color:#2C4471; /*The colour of the header*/
+	font-weight:bold; /*This makes the header text bold*/
+}
+
+h2
+{ /*Styling properties for the subheader*/
+	position:relative; /*Sets the positioning for the subheader relative*/
+	margin-left:10px; /*Positions the subheader 10px from the left*/
+	font:24px Arial; /*Font properties for the header*/
+	color:#2C4471; /*The colour of the subheader*/
+}
+
+article td
+{ /*Styling properties for the article td div*/
+	background:#FFFFFF; /*The background of the table*/
+	font:16px Arial; /*The font properties*/
+	text-align:center; /*Aligns the text in the center*/
+	padding-right:20px; /*Adds padding to the right*/
+	padding-left:20px; /*Adds padding to the left*/
+	padding-bottom:20px; /*Adds padding to the bottom*/
+	padding-top:20px; /*Adds padding to the top*/
+}
+
+article form
+{/*Styling properties for the article form*/
+	margin-left:10px; /*Positions the contact_form 10px from the left*/
+	font:14px Arial; /*The font properties*/
+}
+
+article table
+{/*Styling properties for the article table*/
+	width:480px;/*The width of the table*/
+}
+article input
+{/*Styling properties for the article input*/
+	font:14px Arial; /*The font properties*/
+}
+
+article tr
+{ /*Styling properties for the article tr div*/
+	background:#2C4471; /*The background of the table*/
+}
+
+article th
+{ /*Styling properties for the article th div*/
+	color:#FFFFFF; /*The color of the text*/
+	font:16px Arial; /*The font properties*/
+}
+
+article form th
+{ /*Styling properties for the article form th*/
+	height:19px; /*The height of the th div on the form*/
+}
+
+.map
+{ /*Styling properties for the map*/
+	float:left; /*Floats the map to the left*/
+	margin-left:530px; /*Positions the map 530px to the left*/
+	margin-top:-470px; /*Positions the map -470px from the top*/
+}
+
+#submit
+{ /*Styling properties for the article submit button*/
+	position:relative; /*Positions the submit button relative on the page*/
+	margin-left:130px; /*Positions the submit button 160px from the left*/
+	width:260px; /*The width of the button*/
+	height:40px; /*The height of the button*/
+}
+
+#bottom_bar
+{ /*Styling properties for the bottom_bar div*/
+	position:relative; /*Positions the bottom_bar class relative on the page*/
+	width:100%; /*The width of the bottom_bar class*/
+	min-height:40px; /*The height of the bottom_bar class*/
+	background:#DDDDDD; /*The colour of the bottom bar*/
+}
+
+.invisible_footer 
+{ /*Styling properties for the invisible_footer div*/
+	position:relative; /*Positions the invisible_footer div relative on the page*/
+	margin-bottom:0px; /*Positions the invisiable_footer div 0px from the bottom of the page*/
+	height:200px; /*The height of the div*/
+	width:100%; /*The width of the div*/
+}
+
+footer
+{ /*Styling properties for the footer div*/
+	position:fixed; /*Fixes the footer to the bottom of the page*/
+	bottom:0; /*Positions the footer 0 from the bottom of the page*/
+	z-index:100000; /*The footer will appear infront of the other elements on the page*/
+	width:100%; /*The width of the footer*/
+	height:100px; /*The height of the footer*/
+	background:#2D4471; /*The colour of the footer*/
+	box-shadow:4px -4px 4px grey; /*Adds drop shadow to the footer*/
+}
+
+.page_links
+{ /*Styling properties for the page_links class*/
+	float: left; /*Positions the page_links class to the left of the page*/
+	bottom:30px; /*Positions the page_links class 30px from the bottom of the page*/
+	min-height:0px; /*The height of the class*/
+	font:16px Arial; /*Makes the text within the page_links class font family Tahoma 16px*/
+	color:white; /*The colour of the text*/
+	text-shadow:2px 2px black; /*Adds a black drop shadow to the class*/
+	margin-top:20px; /*Positions the class 20px from the top of the page*/
+	margin-left:20px; /*Positions the .page_links 20px from the left*/
+}
+
+.page_links a
+{ /*Styling properties for the link text in the page_links class*/
+	margin-left:20px; /*Positions the page_links text 20px from the left*/
+	font:16px Arial; /*Makes the text within the page_links class font family Arial 16px*/
+	color:white; /*The colour of the text*/
+	text-decoration:none; /*This removes the underline of the text*/
+}
+
+.page_links a:hover
+{ /*Styling properties for the text in the page_links class when hovering over*/
+	font:16px Arial; /*Makes the text within the page_links class font family Arial 24px*/
+	color:white; /*The colour of the text*/
+	text-decoration:underline; /*Adds an underline to the text*/
+}
+
+.contact_links
+{ /*Styling properties for the contact_links class*/
+	float:right; /*Positions the contact_links class to the right of the page*/
+	bottom:0px; /*Positions the contact_links class 0px from the bottom of the page*/
+	width:25%; /*The width of the class*/
+	min-height:0px; /*The height of the class*/
+	font:16px Arial; /*Makes the text within the page_links class font family Arial 16px*/
+	color:white; /*The colour of the text*/
+	text-shadow:2px 2px black; /*Adds a black drop shadow to the class*/
+	margin-top:20px; /*Poisitions the text 20px within the footer*/
+	margin-right: 20px; /*Positions the contact_links 20px from the right*/
+}
+
+.contact_links a
+{ /*Styling properties for the link text in the contact_links class*/
+	margin-left:20px; /*Positions the text 20px from the left*/
+	font:16px Arial; /*Makes the text within the contact_links class font family Arial 24px*/
+	color:white; /*The colour of the text*/
+	text-shadow:2px 2px black; /*Adds a black drop shadow to the text*/
+	text-decoration:none; /*This removes the underline of the text*/
+}
+
+.clearfix
+{  /*Styling properties for the clearfix*/
+	clear:both; /*This clears the float positioning properties*/
+} 
